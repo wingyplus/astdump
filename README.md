@@ -1,14 +1,15 @@
-Golang AST Dump
-===============
+# astdump
 
-Install:
+astdump is command-line utility to print ast from source file.
+
+## Install
 
 ```bash
 $ go get github.com/wingyplus/astdump
 ```
 
-How to use:
+## How to use
 
 ```bash
-$ cat src.go | astdump
+$ astdump src.go
 ```
